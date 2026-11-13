@@ -186,7 +186,7 @@ with torch.no_grad():
 
 mse = mean_squared_error(y_trues, y_preds)
 print(f"Validation Mean Squared Error is {mse}")
-# %%
+# %%Testing the model for a specific user
 model.eval()
 
 user_id = 10
